@@ -14,22 +14,26 @@
       <header>Welcome to your AI recipe generator</header>
       <hr />
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="Enter an ingredient"
-            autofocus
-            required
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="button" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter an ingredient"
+              autofocus
+              required
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e chicken, chickpea, strawberry</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
       <hr />
       <footer>
-        This page was coded with ♥︎ by Mafalda Coelho, it is open-sourced on
+        This page was coded with ♥︎ by <strong>Mafalda Coelho</strong>, it is
+        open-sourced on
         <a
           href="https://github.com/mafalda-coelho/recipe-generator"
           target="_blank"
@@ -38,7 +42,7 @@
         </a>
         and
         <a href="https://whats-my-recipe.netlify.app/" target="_blank">
-          Netlify
+          Netlify.
         </a>
       </footer>
     </div>
