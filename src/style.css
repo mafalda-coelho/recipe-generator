@@ -45,6 +45,9 @@ form {
   border-radius: 50px;
   padding: 14px 24px;
 }
+.button:hover {
+  cursor: pointer;
+}
 .recipe {
   font-size: 14px;
   background-color: #ffff;
